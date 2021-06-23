@@ -7,6 +7,7 @@
 #### Stat367 Statistical Methods II  
 #### Stat376 Survey Design  
 #### Stat405 Statistical Data Mining  
+#### Stat471 Experimental Design  
 #### Stat477 Time Series  
 #### Stat491 Advanced Statistical Projects  
 
