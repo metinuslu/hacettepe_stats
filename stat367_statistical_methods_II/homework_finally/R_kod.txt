@@ -1,0 +1,48 @@
+veri= read.table("C:/IstYontFinal/veri.txt", header=TRUE)
+veri
+attach(veri)
+
+parsel_1=veri[veri[,1]=="1",3]
+parsel_2=veri[veri[,1]=="2",3]
+parsel_3=veri[veri[,1]=="3",3]
+parsel_4=veri[veri[,1]=="4",3]
+
+shapiro.test(parsel_1)
+shapiro.test(parsel_2)
+shapiro.test(parsel_3)
+shapiro.test(parsel_4)
+
+qqnorm(parsel_1) 
+qqline(parsel_1)
+
+qqnorm(parsel_2)
+qqline(parsel_2)
+
+qqnorm(parsel_3)
+qqline(parsel_3)
+
+qqnorm(parsel_4)
+qqline(parsel_4)
+
+boxplot(kg~parsel,data=veri) 
+
+library(lawstat)
+levene.test(kg,parsel, location="mean")
+
+anv=aov(kg~parsel+duzey, data=veri)
+summary(anv)
+
+df<-df.residual(anv)
+MSerror<-deviance(anv)/df
+
+library(agricolae)
+
+#LSD.test(y, trt, DFerror, MSerror, alpha = 0.05, p.adj=c("none","holm", 
+#"hochberg", "bonferroni", "BH", "BY", "fdr"), group=TRUE, main = NULL)
+
+lsd_parsel=LSD.test(kg, parsel, df, MSerror, alpha = 0.05, group=FALSE)
+lsd_duzey=LSD.test(kg, duzey, df, MSerror, alpha = 0.05, group=FALSE)
+
+#SNK.test(y, trt, DFerror, MSerror, alpha = 0.05, group=TRUE, main = NULL)
+snk_parsel=SNK.test(kg, parsel, df, MSerror, alpha = 0.05, group=TRUE)
+snk_duzey=SNK.test(kg, duzey, df, MSerror, alpha = 0.05, group=TRUE)

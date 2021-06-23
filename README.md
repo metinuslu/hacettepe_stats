@@ -3,9 +3,10 @@
 ### Projects
 
 #### Stat366 Regression Analysis
+#### Stat367 Statistical Methods II
 #### Stat376 Survey Design  
 #### Stat405 Statistical Data Mining  
-#### Stat477 Time Series
+#### Stat477 Time Series  
 #### Stat491 Advanced Statistical Projects  
 
 ### Contact:

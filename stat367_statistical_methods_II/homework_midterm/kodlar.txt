@@ -1,0 +1,99 @@
+soru1<-read.table("C:/Users/Metin USLU/Desktop/odev1.txt",sep="\t", header=TRUE)
+attach(soru1)
+
+
+
+sony=soru1[Grup=="Sony",1]
+toshiba=soru1[Grup=="Toshiba",1]
+duracell=soru1[Grup=="Duracell",1]
+panasonic=soru1[Grup=="Panasonic",1]
+
+
+sony
+toshiba
+duracell
+panasonic
+
+
+shapiro.test(sony)
+shapiro.test(toshiba)
+shapiro.test(duracell)
+shapiro.test(panasonic)
+
+
+levene.test(Y,Grup)
+
+	modified robust Brown-Forsythe Levene-type test based on the absolute
+	deviations from the median
+
+data:  Y 
+Test Statistic = 0.8718, p-value = 0.4612
+
+
+anova <- aov(Y ~ Grup, data=soru1)
+
+summary(anova)
+summary(anova, conf.level=0.99) ## iþe yaramýyorrrrr
+
+            Df Sum Sq Mean Sq F value Pr(>F)
+Grup         3   4169    1390   0.201  0.896
+Residuals   56 388065    6930    
+
+
+
+binom.test(1,25,p=0.9)
+
+	Exact binomial test
+
+data:  1 and 25 
+number of successes = 1, number of trials = 25, p-value < 2.2e-16
+alternative hypothesis: true probability of success is not equal to 0.9 
+95 percent confidence interval:
+ 0.0010122 0.2035169 
+sample estimates:
+probability of success 
+                  0.04
+
+
+
+binom.test(1,25,p=0.6)
+
+	Exact binomial test
+
+data:  1 and 25 
+number of successes = 1, number of trials = 25, p-value = 4.335e-09
+alternative hypothesis: true probability of success is not equal to 0.6 
+95 percent confidence interval:
+ 0.0010122 0.2035169 
+sample estimates:
+probability of success 
+                  0.04
+
+
+
+
+
+binom.test(1,10,p=0.9)
+
+	Exact binomial test
+
+data:  1 and 10 
+number of successes = 1, number of trials = 10, p-value = 9.1e-09
+alternative hypothesis: true probability of success is not equal to 0.9 
+95 percent confidence interval:
+ 0.002528579 0.445016117 
+sample estimates:
+probability of success 
+                   0.1 
+
+
+> View(soru1)
+> View(mat.ch)
+> View(dat)
+> View(mat.ch)
+> View(mat.x1)
+> View(soru1)
+> View(soru1)
+> slices <- c(10, 12,4, 16, 8)
+> lbls <- c("US", "UK", "Australia", "Germany", "France")
+> pie(slices, labels = lbls, main="Pie Chart of Countries")           
