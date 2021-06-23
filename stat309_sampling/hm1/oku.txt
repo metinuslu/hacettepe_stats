@@ -1,0 +1,22 @@
+Arkadaþlar merhaba, ekte size örnekleme dersi 1. ödevini gönderiyorum. Ödevi word ve excel dosyasý halinde istiyoruz. Ödevi yazarken kullanabileceðiniz formülleri de ekte gönderiyorum ( size gonderdiðim formul kaðýdý sýnavda verilecek olan formul kaðýdýndan farklýdýr. sýnavda bu kadar detaylý formül kaðýdý olmayacak, bilginize).
+
+Odev ile ilgili açýklamalar
+
+1. 1. ve 2. soruda kullanacaðýnýz tabaka aðýrlýklarý size excel dosyasýnda verilmiþtir( ornekleme odevi-1.xls)
+
+2. 3. soru için kullanacaðýnýz veri seti spss dosyasýnda verilmiþtir( ornekleme odev verisi.sav) . Veri setinizde birçok deðiþken var. Deðiþkenlerin isimleri her sütun baþýnda yazýlýdýr.
+
+3. Örneklem seçimi için excel ya da minitab programýný ya da bildiðiniz baþka bir program varsa  kullanabilirsiniz.
+
+4. Tüm iþlemlerinizi excelden faydalanarak yapýyorsunuz. excelde fx menusunden istatistik hesaplarýný( ortalama, varyans, kovaryans, korelasyon, ...) yapabilirsiniz.
+
+5. 3.soru için seçeceðiniz örneklemleri excel dosyasýnda gönderiyorsunuz. Word dosyasýnda örneklem verilerini tek tek vermenize gerek yoktur.
+
+6. Ýþlemleri yazarken formülde kullandýðýnýz deðerleri tek tek yazmalýsýnýz. Yani formülü yazýp karþýsýna direkt sonucu yazmanýzý istemiyoruz. 
+
+Odevde anlaþýlmayan bir nokta, eksik ya da hatalý sorular varsa bana bildiriniz.
+
+Hazýrladýðýnýz ödevi word dosyasý olarak ve kullandýðýnýz verileri excel dosyasý olarak en geç 17 KASIM 2012 tarihine kadar mail olarak göndermenizi rica ediyorum. Ayrýca en geç sýnav tarihine kadar da ödev çýktýlarýný bana teslim ederseniz çok sevinirim.
+
+
+Hepinize kolay gelsin..

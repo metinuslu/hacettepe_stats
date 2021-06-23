@@ -2,8 +2,9 @@
 
 ### Projects
 
-#### Stat366 Regression Analysis
-#### Stat367 Statistical Methods II
+#### Stat309 Sampling
+#### Stat366 Regression Analysis  
+#### Stat367 Statistical Methods II  
 #### Stat376 Survey Design  
 #### Stat405 Statistical Data Mining  
 #### Stat477 Time Series  
