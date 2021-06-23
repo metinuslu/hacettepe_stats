@@ -2,6 +2,7 @@
 
 ### Projects
 
+#### Stat376 Survey Design  
 #### Stat405 Statistical Data Mining  
 #### Stat491 Advanced Statistical Projects  
 
