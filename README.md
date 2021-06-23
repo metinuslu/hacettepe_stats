@@ -1,7 +1,10 @@
 # Hacettepe University Department of Statistics
 
 ### Projects
-#### Stat491 Advanced Statistical Projects
+
+#### Stat405 Statistical Data Mining  
+#### Stat491 Advanced Statistical Projects  
+
 ### Contact:
 - [Hacettepe University]
 - [Department of Statistics]
